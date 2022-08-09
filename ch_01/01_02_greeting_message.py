@@ -20,7 +20,7 @@ class Greeting(QWidget):
         self.message_le = QLineEdit(self, returnPressed=self.disable_le)
         self.message_le.setGeometry(8, 32, 236, 24)
 
-        # GE Button: Add a button and connect it the same slot as the line edit field.
+        # EX_01 Button: Add a button and connect it the same slot as the line edit field.
         greeting_btn = QPushButton('Print Greeting', self)
         greeting_btn.clicked.connect(lambda: self.print_msg(self.message_le.text()))
         greeting_btn.setGeometry(8, 64, 236, 24)
