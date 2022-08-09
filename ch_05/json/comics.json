@@ -1,0 +1,5 @@
+{
+  "publisher" : {"is_prefix" : true,"entries": ["DC", "MARVEL", "IMAGE", "DARK HORSE"]},
+  "comic" : {"is_prefix": true, "entries": ["SPAWN", "BATMAN", "X-MEN", "SANDMAN"]},
+  "year" : {"is_prefix": false, "entries": ["1995", "2000", "2005", "1987"]}
+}
